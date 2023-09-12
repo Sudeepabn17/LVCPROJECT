@@ -1,0 +1,14 @@
+.top{   margin:0px;
+    margin-top:auto ;
+        position:relative;
+        
+        width:400px;
+        height:250px;
+        background-color:yellow;
+        box-shadow: 10px 10px 5px #888888;
+}
+.su{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -250px;
+}

@@ -1,0 +1,51 @@
+<section>
+    <div class="pot"></div><p style="font-size:40px">
+      Popular courses  
+     </p>
+  
+<style>
+    .highlight-box-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+    
+    .highlight-box {
+      flex: 0 0 calc(33.33% - 20px);
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin: 10px;
+    }
+    
+    .slider {
+      width: 100%;
+    }
+  </style>
+
+<body>
+  <div class="highlight-box-container">
+    <div class="highlight-box">
+      <h2>Mean Course</h2>
+      <p>This course covers the Mean stack...</p>
+      <input type="range" class="slider">
+    </div>
+
+    <div class="highlight-box">
+      <h2>Mevn Course</h2>
+      <p>This course focuses on the Mevn stack...</p>
+      <input type="range" class="slider">
+    </div>
+
+    <div class="highlight-box">
+      <h2>Merge Course</h2>
+      <p>In this course, you'll learn about merge techniques...</p>
+      <input type="range" class="slider">
+    </div>
+  </div>
+
+  <script>
+    // Add JavaScript here if needed for slider functionality
+  </script>
+</body>
